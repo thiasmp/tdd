@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dat.tdd.koans.MainTest" time="0.047" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="dat.tdd.koans.MainTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="DK"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\thias\AppData\Local\Temp\surefire3359791663905355984\surefirebooter1984329881991467926.jar C:\Users\thias\AppData\Local\Temp\surefire3359791663905355984 2021-08-25T20-26-28_171-jvmRun1 surefire3353227945388409877tmp surefire_04457824588417407701tmp"/>
+    <property name="sun.java.command" value="C:\Users\thias\AppData\Local\Temp\surefire6754859570947317535\surefirebooter1015280916687662204.jar C:\Users\thias\AppData\Local\Temp\surefire6754859570947317535 2021-08-26T08-57-55_270-jvmRun1 surefire4545149471291004289tmp surefire_0545827321089621361tmp"/>
     <property name="test" value="dat.tdd.koans.MainTest#moreNamesTest"/>
     <property name="surefire.test.class.path" value="C:\Users\thias\Desktop\Datamatiker\3.semester\Netbeans\tdd-koans\target\test-classes;C:\Users\thias\Desktop\Datamatiker\3.semester\Netbeans\tdd-koans\target\classes;C:\Users\thias\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\thias\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\thias\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\thias\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\thias\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\thias\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\thias\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\thias\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\thias\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\thias\AppData\Local\Temp\surefire3359791663905355984\surefirebooter1984329881991467926.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\thias\AppData\Local\Temp\surefire6754859570947317535\surefirebooter1015280916687662204.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,9 +62,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="moreNamesTest" classname="dat.tdd.koans.MainTest" time="0.044">
-    <failure message="expected: &lt;Hello, Bob, Kurt and Brian&gt; but was: &lt;hello, Bob, Kurt, Brian&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Hello, Bob, Kurt and Brian> but was: <hello, Bob, Kurt, Brian>
-	at dat.tdd.koans.MainTest.moreNamesTest(MainTest.java:90)
-]]></failure>
-  </testcase>
+  <testcase name="moreNamesTest" classname="dat.tdd.koans.MainTest" time="0.02"/>
 </testsuite>

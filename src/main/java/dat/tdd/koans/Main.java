@@ -33,9 +33,21 @@ public class Main {
             
             else if (name.length>2)
             {
+            String lastnum = name[name.length-1];
+            String sep = "";
+                    
+             StringBuffer sb = new StringBuffer();
+             for(int i=0; i < name.length-1; i++)
+             {
+                 sb.append(sep);
+                 sb.append(name[i]);
+                 sep =", ";
+             }
              
-              String names = String.join(", ", name);
-              return "hello, " + names;
+             String str = sb.toString();
+             
+             return "Hello, " + str + " and " + lastnum;
+             
                 
             }
             

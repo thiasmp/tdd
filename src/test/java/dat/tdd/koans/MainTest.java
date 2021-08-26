@@ -84,8 +84,8 @@ public class MainTest {
     
     @Test
     public void moreNamesTest() {
-        String[] name = {"Bob", "Kurt", "Brian"};
-        String expected = "Hello, Bob, Kurt and Brian";
+        String[] name = {"Bob", "Kurt", "Brian","Ole"};
+        String expected = "Hello, Bob, Kurt, Brian and Ole";
         String actual = Main.greet(name);
         assertEquals(expected, actual);
     }

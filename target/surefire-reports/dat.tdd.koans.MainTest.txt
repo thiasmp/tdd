@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: dat.tdd.koans.MainTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! - in dat.tdd.koans.MainTest
-moreNamesTest  Time elapsed: 0.044 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Hello, Bob, Kurt and Brian> but was: <hello, Bob, Kurt, Brian>
-	at dat.tdd.koans.MainTest.moreNamesTest(MainTest.java:90)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in dat.tdd.koans.MainTest
